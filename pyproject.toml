@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "seldon-testing"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <jbris@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.10,<3.13"
+mlserver = "^1.6.1"
+alibi = "^0.9.6"
+alibi-detect = "^0.12.0"
+mlserver-sklearn = "^1.6.1"
+mlserver-xgboost = "^1.6.1"
+numpyro = "^0.17.0"
+jax = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
